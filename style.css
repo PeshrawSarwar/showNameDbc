@@ -1,0 +1,24 @@
+/* parent of the display element */
+
+#container {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    margin: 10%;
+    background-color: #2256CE;
+    border-radius: 34px;
+}
+
+
+/* The display, debugging elements */
+
+#display {
+    padding-bottom: 10px;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    font-size: 100px;
+    color: #Fefefe;
+    /* create border around text */
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
